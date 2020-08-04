@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MB-HUD_Example' do
+  pod 'MB-HUD', :path => '../'
+
+  target 'MB-HUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
