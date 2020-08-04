@@ -1,0 +1,6 @@
+framework module MB_HUD {
+  umbrella header "MB-HUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

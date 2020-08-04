@@ -1,5 +1,5 @@
 import XCTest
-import MB-HUD
+import MB_HUD
 
 class Tests: XCTestCase {
     

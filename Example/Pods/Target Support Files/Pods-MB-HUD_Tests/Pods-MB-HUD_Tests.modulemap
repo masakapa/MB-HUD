@@ -1,0 +1,6 @@
+framework module Pods_MB_HUD_Tests {
+  umbrella header "Pods-MB-HUD_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
