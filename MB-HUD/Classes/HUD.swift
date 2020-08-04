@@ -52,7 +52,7 @@ public extension HUD {
             let loadView = HUDView(frame: CGRect(x: MAINSCREEN_WIDTH-144, y: 0, width: 144, height: 50))
             loadView.backgroundColor = .black
             let indicator = {() -> UIActivityIndicatorView in
-                let indicator = UIActivityIndicatorView(activityIndicatorStyle: .white)
+                let indicator = UIActivityIndicatorView(style: .white)
                 indicator.startAnimating()
                 indicator.frame = CGRect(x: 16, y: 13, width: 24, height: 24)
                 return indicator
